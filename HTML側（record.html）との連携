@@ -1,0 +1,3 @@
+<input type="text" id="driverName" oninput="saveData()">
+
+<button onclick="copyToClipboard()">情報をコピーする</button>
