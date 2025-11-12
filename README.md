@@ -82,3 +82,20 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+{
+    "driverName": "田中太郎",
+    "driverContact": "090-xxxx-xxxx",
+    "carNumber": "品川300 あ 1234",
+    "insuranceName": "〇〇火災",
+    "policyNumber": "A123456789",
+    "accidentDate": "2025-11-10T10:30:00",
+    "location": "交差点A（コンビニ前）",
+    "signalColor": "blue",
+    "selfDirection": "直進（東から西）",
+    "photoChecklist": {
+        "overallPhoto": true,
+        "damagePhoto": true,
+        "signPhoto": false
+    }
+}
+
