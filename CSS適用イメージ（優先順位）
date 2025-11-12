@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="css/style.css">        <link rel="stylesheet" href="css/emergency.css">    ```
+この構成により、`emergency.css`に記述されたスタイル（例：赤色のボタン）が、`style.css`に記述された汎用ボタンのスタイルを上書きし、意図した通りの**「緊急時デザイン」**が実現できます。
+
+---
+
+これで、Webサイト制作の核となる**HTML構造**、**JavaScriptの機能設計**、そして**CSSの設計**が完了しました。
+
+次に、残る最後の主要ファイルとなる**「メインJavaScript（`main.js`）の設計」**に移り、保険会社の連絡先登録・表示機能や、ページ共通の動的な処理を定義しますか？
