@@ -1,0 +1,39 @@
+// --- 1. 初期化処理 ---
+function initSite() {
+    // 共通処理の開始
+    console.log("Site initialization started."); 
+    
+    // 連絡先機能のロード
+    loadAndDisplayContact(); 
+    
+    // ナビゲーションのアクティブ状態を設定
+    setNavigationActive();
+    
+    // 他の共通イベントリスナー設定 (例: ドロワーメニューなど)
+}
+
+// --- 2. 保険会社連絡先 機能 ---
+let INSURANCE_STORAGE_KEY = 'myInsuranceContact';
+
+function saveInsuranceContact() {
+    // フォームから値を取得...
+    // JSON形式でローカルストレージに保存
+    // localStorage.setItem(INSURANCE_STORAGE_KEY, JSON.stringify(data));
+}
+
+function loadAndDisplayContact() {
+    // ローカルストレージからデータを取得
+    // if (data) {
+        // トップページのボタンのhrefとテキストを更新
+        // document.getElementById('insurance-call-btn').href = 'tel:' + data.tel;
+        // document.getElementById('insurance-call-btn').textContent = '📞 ' + data.name + 'に電話する';
+    // }
+}
+
+// --- 3. ページ共通機能 ---
+function setNavigationActive() {
+    // 現在のURLに基づき、ナビゲーションリンクにclass="active"を付与
+}
+
+// サイト起動
+window.addEventListener('load', initSite);
